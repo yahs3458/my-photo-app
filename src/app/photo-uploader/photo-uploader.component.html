@@ -1,0 +1,4 @@
+<button (click)="capturePhoto()">Capture Photo</button>
+<img *ngIf="photoData" [src]="photoData" alt="Captured Photo">
+<button *ngIf="photoData" (click)="uploadPhoto()">Upload Photo</button>
+
